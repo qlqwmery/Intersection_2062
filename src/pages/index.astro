@@ -1,0 +1,72 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { Image } from 'astro:assets';
+import flyer from '../assets/s-1flyer.jpg';
+import ticketbutton from '../assets/s-ticketbutton.jpg';
+import timetable from '../assets/1timetable.jpg';
+import flavortext from '../assets/1flavortext.jpg';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+	
+			<Image src={flyer} alt="フライヤー"/>
+			<!-- <h1>Intersection_2062</h1> -->
+			<p>
+				「Intersection_2062」は電音部<b>"非公式"</b>のファンイベントです。
+				最新情報は<a href="https://x.com/Intersection62">Xアカウント</a>で発信しています。
+			</p>
+			<br>
+			<h2>Intersection_2062</h2>
+			<p>日時：2024/12/01(Sun.) 1500-2100</p>
+			<p>場所：下北沢CREAM B1F</p>
+			<p>料金：ADV:￥2500(+1d) / DOOR:￥3000(+1d)</p>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLScTKBDBeCC-6EQE0CRG6SvTuhoYkq3UKa6XUkkfChbY4UhjgQ/closedform">
+				<Image src={ticketbutton} alt="チケットはこちらから"/>
+			</a>
+			<br>
+			<br>
+			<h4>＜注意事項＞</h4>
+			<ul>
+			<li>雅賀烈賀さん(矢吹真央さん)は撮影禁止となっております。</li>
+			</ul>
+			<br>
+			<h2>Time Table</h2>
+			<Image src={timetable} alt="タイムテーブル"/>
+			<p>出演者紹介はこちらから</p>
+			<br>
+			<h2>Flavor Text</h2>
+			<Image src={flavortext} alt="フレーバーテキスト"/>
+			<p>
+				Writer:<a href="https://x.com/rnkn_bacteria">
+				通勤にブドウレンコン</a>
+			</p>
+			<br>
+			<h2>絵チャ企画</h2>
+			<p>当日はMagicalDrawにてお絵かきチャットの同時開催を行います！</p>
+			<p>様子は下北沢CREAMのモニターで中継されるかも？</p>
+			<p>どなたでも奮ってご参加ください！</p>
+			<p>※ルームのURLは、当日<a href="https://x.com/Intersection62">Xアカウント</a>からご案内いたします。</p>
+			<br>
+			<h2>配信のお知らせ</h2>
+			<p>Twitchでの配信が決定！</p>
+			<p>当日足を運べない皆様も、イベントの空気感を少しでも味わっていただけますと幸いです！</p>
+			<p>※配信のURLは当日ご案内いたします。</p>
+			<p>※雅賀烈賀さん(矢吹真央さん)、Hylenさんの出演中は配信を一時停止させていただきます。</p>
+			<br>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLScTKBDBeCC-6EQE0CRG6SvTuhoYkq3UKa6XUkkfChbY4UhjgQ/closedform">
+				<Image src={ticketbutton} alt="チケットはこちらから"/>
+			</a>
+		</main>
+		<Footer />
+	</body>
+</html>
