@@ -62,17 +62,40 @@ h6 {
 h1 {
 	font-size: 2.441em;
 }
+
 h2 {
-	font-size: 1.953em;
+	font-size: 1.7em;
+	 position: relative;
+    padding: 1rem;
+    outline: 3px solid #000;
+    outline-offset: -5px;
+    background-image:
+        repeating-linear-gradient(-45deg, #e7e7e7 0 7px, transparent 7px 12px);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    font-weight: bold;
+    text-align: center;
 }
 h3 {
-	font-size: 1.563em;
+	font-size: 1.25em;
+	padding: 9px 30px;/*文字回りの余白（上下 左右）*/
+    display: block;
+    position: relative;
+}
+h3:before {
+    content: "✦";
+    font-weight: 900;/*マーク部の太さ*/
+    position: absolute;
+    font-size: 20px;/*マーク部のサイズ*/
+    left: 0;
+    top: 30;
+    color: #b8b8b8;/*マーク部の色*/
 }
 h4 {
-	font-size: 1.25em;
+	font-size: 1em;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1em;
 }
 strong,
 b {
@@ -156,4 +179,12 @@ hr {
 .name-and-x{
 	display: flex;
 	justify-content:space-between;
+}
+
+.fade{
+  animation: fadeIn 2s ease 0.5s 1 normal;
+}
+@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
 }
