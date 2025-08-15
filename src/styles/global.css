@@ -32,7 +32,7 @@
 }
 body {
 	font-family: 'Arimo', sans-serif;
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	text-align: left;
 	background: linear-gradient(var(--gray-gradient)) no-repeat;
@@ -65,7 +65,7 @@ h1 {
 
 h2 {
 	font-size: 1.7em;
-	 position: relative;
+	position: relative;
     padding: 1rem;
     outline: 3px solid #000;
     outline-offset: -5px;
@@ -112,6 +112,10 @@ p {
 }
 .prose p {
 	margin-bottom: 2em;
+}
+.indent{
+	margin-left: 3.3rem;
+  	text-indent: -3.3rem;
 }
 textarea {
 	width: 100%;
@@ -182,9 +186,20 @@ hr {
 }
 
 .fade{
-  animation: fadeIn 2s ease 0.5s 1 normal;
+  animation: fadeIn 2s;
 }
 @keyframes fadeIn { /*animation-nameで設定した値を書く*/
   0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
   100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
 }
+
+.index {
+        padding: 1em 1.5em 1em 1.5em;/*ボックス内の余白*/
+        border: solid 3px black;/*線の種類 太さ 色*/
+    }
+    ol, li{
+        list-style: none;
+    }
+    h4{
+        font-weight: bold;
+    }

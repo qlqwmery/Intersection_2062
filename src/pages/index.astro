@@ -4,10 +4,11 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image } from 'astro:assets';
-import flyer from '../assets/s-1flyer.jpg';
-import ticketbutton from '../assets/s-ticketbutton.jpg';
+import flyer from '../assets/s-Intersection_2062_2nd_v3.jpg';
+import ticketbutton from '../assets/s-ticketbutton.png';
 import timetable from '../assets/1timetable.jpg';
 import flavortext from '../assets/1flavortext.jpg';
+import comingsoon from '../assets/s-comingsoon.jpg';
 ---
 
 <!doctype html>
@@ -21,38 +22,78 @@ import flavortext from '../assets/1flavortext.jpg';
 		<Header />
 		<main>
 			<Image class="fade" src={flyer} alt="フライヤー"/>
-			<!-- <h1>Intersection_2062</h1> -->
-			<p>
-				「Intersection_2062」は電音部<b>"非公式"</b>のファンイベントです。
-				最新情報は<a href="https://x.com/Intersection62">Xアカウント</a>で発信しています。
-			</p>
-			<br>
-			<h2>Intersection_2062</h2>
-			<p>日時：2024/12/01(Sun.) 15:00～21:00</p>
-			<p>場所：下北沢CREAM B1F</p>
-			<p>料金：ADV:￥2500(+1d) / DOOR:￥3000(+1d)</p>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLScTKBDBeCC-6EQE0CRG6SvTuhoYkq3UKa6XUkkfChbY4UhjgQ/closedform">
+			<span style="font-size: smaller;">
+				<p>
+					「Intersection_2062 2nd」は電音部<b>"非公式"</b>のファンイベントです。
+					最新情報は<a href="https://x.com/Intersection62">Xアカウント</a>で発信しています。
+				</p>
+				<br>
+				<h4 style="text-align: center;">
+					✦ index：
+					<a href="#about">About</a>／
+					<a href="#cast">Cast</a>／
+					<a href="#flavortext">Flavor Text</a>　✦
+				</h4>
+
+			</span>
+			<h2 id="about">About</h2>
+			<p>日時：2025/11/29(土) 15:00～21:00</p>
+			<p class="indent">場所：<a href="https://batica.jp/">EBISU BATICA</a> 1F-2F<br>
+			<span style="font-size: smaller;">
+			東京都渋谷区恵比寿南3-1-25<br>
+			ICE CUBE 1F/2F<br>
+			恵比寿駅西口ゑびす像より徒歩3分</p>
+			</span>
+			<p class="indent">料金：ADV:￥3000(+1d)<br>
+				DOOR:￥3500(+1d)</p>
+			<a href="https://t.livepocket.jp/e/intersection_2062-2nd">
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
+			<span style="font-size: smaller;">
+				<p>※チケットは8/16(土) 19:00に販売開始します。</p>
+			</span>
 			<br>
+			<h2 id="cast">Cast</h2>
+			<h3>Guest DJ</h3>
+			<p>higma (<a href="https://x.com/pai_dareka">@pai_dareka</a>)<br>
+			NUU$HI (<a href="https://x.com/IamNuushi">@IamNuushi</a>)<br>
+			多々良ゆら （駒場伶音 DJ set）(<a href="https://x.com/MSP_yura">@MSP_yura</a>)</p>
 			<br>
-			<h4>＜注意事項＞</h4>
-			<ul>
-			<li>雅賀烈賀さん(矢吹真央さん)は撮影禁止となっております。</li>
-			</ul>
+			<h3>DJ</h3>
+			<p>FAIO (<a href="https://x.com/FAIO1230">@FAIO1230</a>)<br>
+			POGO (<a href="https://x.com/pogo_voc">@pogo_voc</a>)<br>
+			まかねこ (<a href="https://x.com/macat_255">@macat_255</a>)<br>
+			しょうぽん (<a href="https://x.com/shopon1201">@shopon1201</a>)<br>
+			めり (<a href="https://x.com/d1ggtter">@d1ggtter</a>)<br>
+			ういろう (<a href="https://x.com/willow_2b">@willow_2b</a>)</p>
 			<br>
-			<h2>Time Table</h2>
-			<Image src={timetable} alt="タイムテーブル"/>
+			<h3>VJ</h3>
+			<p>72K (<a href="https://x.com/72K_Nanika">@72K_Nanika</a>)<br>
+			maya_Alukas (<a href="https://x.com/maya_Alukas">@maya_Alukas</a>)<br>
+			VJ Nemo</p>
+			<br>
+			<h3>Live Paint</h3>
+			<p>たっつん (<a href="https://x.com/Tattun319 ">@Tattun319</a>)</p>
+
+			<span style="font-size: smaller;">
+				<ol class="index">
+					<p>出演者紹介やタイムテーブルは後日公開予定です！</p>
+				</ol>
+			</span>
+			<!-- <Image src={timetable} alt="タイムテーブル"/>
 			<a href="https://intersection2062.com/blog/cast-introduction1/">
 			<p>出演者紹介はこちらから</p>
-			</a>
+			</a> -->
 			<br>
-			<h2>Flavor Text</h2>
-			<Image src={flavortext} alt="フレーバーテキスト"/>
+			<h2 id="flavortext">Flavor Text</h2>
+			<p>8/17(日) 12:00 公開予定</p>
+			<Image src={comingsoon} alt="Coming Soon"/>
+			<!-- <Image src={flavortext} alt="フレーバーテキスト"/>-->
 			<p>
-				Writer:<a href="https://x.com/rnkn_bacteria">
-				通勤にブドウレンコン</a>
+				Writer:<!-- <a href="https://x.com/rnkn_bacteria">-->
+				???<!--</a> -->
 			</p>
+			<!-- 
 			<br>
 			<h2>絵チャ企画</h2>
 			<p>当日はMagicalDrawにてお絵かきチャットの同時開催を行います！</p>
@@ -65,10 +106,13 @@ import flavortext from '../assets/1flavortext.jpg';
 			<p>当日足を運べない皆様も、イベントの空気感を少しでも味わっていただけますと幸いです！</p>
 			<p>※配信のURLは当日<a href="https://x.com/Intersection62">Xアカウント</a>からご案内いたします。</p>
 			<p>※雅賀烈賀さん(矢吹真央さん)、Hylenさんの出演中は配信を一時停止させていただきます。</p>
-			<br>
+			<br>-->
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLScTKBDBeCC-6EQE0CRG6SvTuhoYkq3UKa6XUkkfChbY4UhjgQ/closedform">
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
+			<span style="font-size: smaller;">
+				<p>※チケットは8/16(土) 19:00に販売開始します。</p>
+			</span>
 		</main>
 		<Footer />
 	</body>
