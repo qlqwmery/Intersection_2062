@@ -7,7 +7,7 @@ import { Image } from 'astro:assets';
 import flyer from '../assets/s-Intersection_2062_2nd_v3.jpg';
 import ticketbutton from '../assets/s-ticketbutton.png';
 import timetable from '../assets/1timetable.jpg';
-import flavortext from '../assets/1flavortext.jpg';
+import flavortext from '../assets/2flavortext.jpg';
 import comingsoon from '../assets/s-comingsoon.jpg';
 ---
 
@@ -50,7 +50,31 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
 			<span style="font-size: smaller;">
-				<p>※チケットは8/16(土) 19:00に販売開始します。</p>
+				<ol class="index">
+					<h4>多々良さんのファンのみなさまへ</h4>
+					<p>
+						当イベントは電音部非公式ですが、外部出演のひとつとして
+						多々良ゆらさんにご参加いただくことになりました！
+					</p>
+					<p>
+						歌やダンスはなく、DJのみの出演となります
+						(マイクはあるので、本人次第では見られるかも)。
+					</p>
+					<p>
+						また、今回は多々良さんが演じるキャラクター「駒場伶音」さんとしての
+						セットをお願いしています。
+						そのためこの名義（「多々良ゆら （駒場伶音 DJ set）」）になります。
+					</p>
+					<p>
+						タイムテーブルは未決定ですが、トップバッターにはならない予定ですので、
+						開場時間付近にご来場ください。
+					</p>
+					<p>
+						イレギュラーな出演となりますが、
+						多々良さんの好きな音楽を共有する機会ですので、
+						ぜひお気軽にいらしてください！
+					</p>
+				</ol>
 			</span>
 			<br>
 			<h2 id="cast">Cast</h2>
@@ -86,12 +110,9 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 			</a> -->
 			<br>
 			<h2 id="flavortext">Flavor Text</h2>
-			<p>8/17(日) 12:00 公開予定</p>
-			<Image src={comingsoon} alt="Coming Soon"/>
-			<!-- <Image src={flavortext} alt="フレーバーテキスト"/>-->
+			<Image src={flavortext} alt="フレーバーテキスト"/>
 			<p>
-				Writer:<!-- <a href="https://x.com/rnkn_bacteria">-->
-				???<!--</a> -->
+				Writer:<a href="https://x.com/d1ggtter">mery</a>
 			</p>
 			<!-- 
 			<br>
@@ -110,9 +131,6 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLScTKBDBeCC-6EQE0CRG6SvTuhoYkq3UKa6XUkkfChbY4UhjgQ/closedform">
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
-			<span style="font-size: smaller;">
-				<p>※チケットは8/16(土) 19:00に販売開始します。</p>
-			</span>
 		</main>
 		<Footer />
 	</body>
