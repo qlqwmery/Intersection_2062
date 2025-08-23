@@ -1,5 +1,5 @@
 ---
-title: 'Intersection_2062(無印)出演者紹介'
+title: 'Intersection_2062(初回)出演者紹介'
 description: '出演者紹介'
 pubDate: 'Nov 12 2024'
 heroImage: '../../assets/s-cast-introduction1-smn.jpg'

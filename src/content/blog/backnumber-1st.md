@@ -1,6 +1,6 @@
 ---
-title: '【backnumber】Intersection_2062無印'
-description: '【backnumber】Intersection_2062無印'
+title: '【backnumber】Intersection_2062(初回)'
+description: '【backnumber】Intersection_2062(初回)'
 pubDate: 'Aug 2 2025'
 heroImage: '../../assets/s-backnumber1-smn.jpg'
 ---
