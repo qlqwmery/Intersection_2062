@@ -279,7 +279,7 @@ hr {
 
 	.accordion[open] .accordion_title:after {
 		content: "‐";
-		right: -4px;
-		font-size: 5em;
+		/*right: -4px;
+		font-size: 5em;*/
 	}
 	
