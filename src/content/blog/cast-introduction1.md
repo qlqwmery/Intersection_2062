@@ -18,11 +18,11 @@ Intersection_2062の出演者を紹介します。
         <li>　<a href="#shiki">しき</a></li>
         <li>　<a href="#genka">大賀ルキア♡お気に入りの曲</a></li>
         <li>　<a href="#faio">黒胡椒揚げ</a></li>
-        <li>　<a href="#hylen">めり</a></li>
-        <li>　<a href="#hylen">ういろう</a></li>
+        <li>　<a href="#mery">めり</a></li>
+        <li>　<a href="#willow">ういろう</a></li>
     <li class="h2"><a href="#vj">VJ</a></li>
         <li>　<a href="#vindice">V!ndice</a></li>
-        <li>　<a href="#maya">maya</a></li>
+        <li>　<a href="#maya">maya_Alukas</a></li>
         <li>　<a href="#72k">72K</a></li>
     <li class="h2"><a href="#lp">Live Paint</a></li>
         <li>　<a href="#suwa">s u w a</a></li>
