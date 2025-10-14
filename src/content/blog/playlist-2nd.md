@@ -6,6 +6,15 @@ heroImage: '../../assets/2-playlist/s-01_playlist_higma.jpg'
 ---
 「Intersection_2062 2nd イベントプレイリスト企画」として、出演者の皆さまに「電音部の楽曲」と「電音部以外の楽曲」から1曲ずつ選曲していただきました。コメントも合わせて、当日の雰囲気を想像していただけますと幸いです！
 
+#### Spotifyはこちらから↓
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6G2R4rqFJrx0lZyEh1vXb8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+-----------------------------------------------
+
+#### Apple Musicはこちらから↓
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/playlist/intersection-2062-2nd/pl.u-9N9L24LI1j80EWe"></iframe>
+
 <span style="font-size: smaller;">
 <ol class="index">
     <h4>目次</h4>
