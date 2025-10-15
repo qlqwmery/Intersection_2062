@@ -78,7 +78,7 @@ h2 {
 }
 h3 {
 	font-size: 1.25em;
-	padding: 9px 30px;/*文字回りの余白（上下 左右）*/
+	padding: 5px 30px;/*文字回りの余白（上下 左右）*/
     display: block;
     position: relative;
 }
@@ -100,6 +100,7 @@ h5 {
 strong,
 b {
 	font-weight: 700;
+	font-size: 0.9em;
 }
 a {
 	color: var(--accent);
@@ -117,6 +118,9 @@ p {
 .indent{
 	margin-left: 3.3rem;
   	text-indent: -3.3rem;
+}
+ul{
+	font-size: 0.9em;
 }
 textarea {
 	width: 100%;
