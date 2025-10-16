@@ -199,7 +199,7 @@ heroImage: '../../assets/2-playlist/s-00_playlist_smn.jpg'
 本当の「わたし」 いつか見せよう←ありがとう
 
 #### No Gravity(feat. Catarrh Nisin)[Masayoshi Iimori Remix] /Savage States
-電音部4thライブ特典のGR Remix盤にも楽曲提供した、アメ村を代表するHardtekトラックメイカーSavageStatesと SPRAYBOXからリリースされた"Pull Out the Gunfingers"がUKGシーンでスーパーアンセムとなっている神戸在住GrimeラッパーCatarrh Nisinによるコラボスーパーバンガーチューン！！<br>
+電音部4thライブ特典のGR Remix盤にも楽曲提供した、アメ村を代表するHardtekトラックメイカーSavageStatesとSPRAYBOXからリリースされた"Pull Out the Gunfingers"がUKGシーンでスーパーアンセムとなっている神戸在住GrimeラッパーCatarrh Nisinによるコラボスーパーバンガーチューン！！<br>
 両者ともUK現地のフェスやパーティでの多数出演やアーティストとの交流も深く、日本とUKバイブスを繋げる仕掛け人としてアメ村のシーンを代表する大先輩です！
 
 そしてさらにこのトラックは電音部シーズン0アルバムの特典Remixにも楽曲提供したTREKKIE TRAXのMasayoshi IimoriによるRemix！！ガチガチのローが鳴るDnBで皆と踊りたい！！
