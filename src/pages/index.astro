@@ -6,7 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image } from 'astro:assets';
 import flyer from '../assets/s-Intersection_2062_2nd_v3.jpg';
 import ticketbutton from '../assets/s-ticketbutton.png';
-import timetable from '../assets/1timetable.jpg';
+import timetable from '../assets/Is2062-timetable-A4-senga.jpg';
 import flavortext from '../assets/2flavortext.jpg';
 import freepaper from '../assets/s-freepaper.jpg';
 import comingsoon from '../assets/s-comingsoon.jpg';
@@ -35,7 +35,7 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 				<h4 style="text-align: center;">
 					✦ index ✦<br>
 					<a href="#about">About</a>／
-					<a href="#cast">Cast</a>／
+					<a href="#cast">Timetable</a>／
 					<a href="#flavortext">Flavor Text</a>／
 					<a href="freepaper">無配企画</a>
 				</h4>
@@ -55,7 +55,9 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
 			<br><br>
-			<h2 id="cast">Cast</h2>
+			<h2 id="cast">Timetable & Cast</h2>
+			<h3>Timetable</h3>
+			<Image src={timetable} alt="タイムテーブル"/><br><br>
 			<h3>Guest DJ</h3>
 			<strong>higma</strong> (<a href="https://x.com/pai_dareka">@pai_dareka</a>)
 			<br>
@@ -105,10 +107,7 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 					<p>出演者紹介は<a href="https://intersection2062.com/blog/src/content/blog/cast-introduction2">こちら</a>から</p>
 				</ol>
 			</span>
-			<!-- <Image src={timetable} alt="タイムテーブル"/>
-			<a href="https://intersection2062.com/blog/cast-introduction1/">
-			<p>出演者紹介はこちらから</p>
-			</a> -->
+			
 			<br>
 			<h2 id="flavortext">Flavor Text</h2>
 			<Image src={flavortext} alt="フレーバーテキスト"/>
