@@ -7,9 +7,12 @@ import { Image } from 'astro:assets';
 import flyer from '../assets/s-Intersection_2062_2nd_v3.jpg';
 import ticketbutton from '../assets/s-ticketbutton.png';
 import timetable from '../assets/Is2062-timetable-A4-senga.jpg';
+import timetableformobile from '../assets/Is2062-2nd-timetable-mobile-illust.jpg';
 import flavortext from '../assets/2flavortext.jpg';
 import freepaper from '../assets/s-freepaper.jpg';
-import comingsoon from '../assets/s-comingsoon.jpg';
+import echa from '../assets/2echa.jpg';
+import streaming from '../assets/2streaming.jpg';
+import attenttion from '../assets/intersection__v2.jpg';
 ---
 
 <!doctype html>
@@ -37,11 +40,15 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 					<a href="#about">About</a>／
 					<a href="#cast">Timetable</a>／
 					<a href="#flavortext">Flavor Text</a>／
-					<a href="freepaper">無配企画</a>
+					<br>
+					<a href="freepaper">無配企画</a>／
+					<a href="streaming">配信情報</a>／
+					<a href="echa">絵チャ企画</a>
 				</h4>
 
 			</span>
 			<h2 id="about">About</h2>
+			<h3>基本情報</h3>
 			<p>日時：2025/11/29(土) 15:00～21:00</p>
 			<p class="indent">場所：<a href="https://batica.jp/">EBISU BATICA</a> 1F-2F<br>
 			<span style="font-size: smaller;">
@@ -51,13 +58,32 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 			</span>
 			<p class="indent">料金：ADV　:￥3000(+1d)<br>
 				DOOR:￥3500(+1d)</p>
+			<h3>注意事項</h3>
+			<Image src={attenttion} alt="注意事項"/>
 			<a href="https://t.livepocket.jp/e/intersection_2062-2nd">
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
 			<br><br>
 			<h2 id="cast">Timetable & Cast</h2>
 			<h3>Timetable</h3>
-			<Image src={timetable} alt="タイムテーブル"/><br><br>
+			<Image src={timetable} alt="タイムテーブル"/>
+			<span style="font-size: smaller;">
+				<ol class="index">
+					<strong>【重要なお知らせ】</strong>
+					<p>19:40~20:20の枠でライブペイントをお願いしていたたっつんさんの出演について、当人の体調不良によりキャンセルとなりました。
+
+当日、ライブペイントの枠ではたっつんさんに事前に収録いただいたイラスト制作過程をVJとして流す予定です。</p>
+				</ol>
+			</span>
+			<details class="accordion">
+				<summary class="accordion_title">スマホ壁紙サイズのタイムテーブルをダウンロード</summary>
+				<p>スマホの場合は長押し、PCの場合は右クリックでダウンロード可能です。</p>
+				<div class="accordion_contents">
+					<Image src={timetableformobile} alt="スマホ壁紙サイズのタイムテーブル"/>
+				</div>
+			</details>
+			
+		
 			<h3>Guest DJ</h3>
 			<strong>higma</strong> (<a href="https://x.com/pai_dareka">@pai_dareka</a>)
 			<br>
@@ -101,6 +127,7 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 			<br>
 			<h3>Live Paint</h3>
 			<p>たっつん (<a href="https://x.com/Tattun319 ">@Tattun319</a>)</p>
+			<p>※体調不良のため、映像出演となります。</p>
 
 			<span style="font-size: smaller;">
 				<ol class="index">
@@ -115,7 +142,7 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 				Writer:<a href="https://x.com/d1ggtter">mery</a>
 			</p>
 			<br>
-			<h2 id="freepaper">企画①無配企画</h2>
+			<h2 id="freepaper">企画①参加型無料配布</h2>
 			<Image src={freepaper} alt="無配企画"/>
 			<p>Intersection_2062 2ndの開催を記念して、無料配布企画が実現！</p>
 			<p>イベント開催当日、会場のEBISU BATICAさま1階にて、ご自由に配布物を置けるスペースを設置いたします！</p>
@@ -143,28 +170,24 @@ import comingsoon from '../assets/s-comingsoon.jpg';
 					※ファンメイドコンテンツポリシー・発行元が明記されていない頒布物の場合、その2点を記載した札などをご用意くださればOKです。
 				</p>
 			</span>
-			<!-- 
+			
 			<br>
-			<h2>絵チャ企画</h2>
-			<p>当日はMagicalDrawにてお絵かきチャットの同時開催を行います！</p>
-			<p>様子は下北沢CREAMのモニターで中継されるかも？</p>
-			<p>どなたでも奮ってご参加ください！</p>
-			<p>※ルームのURLは、当日<a href="https://x.com/Intersection62">Xアカウント</a>からご案内いたします。</p>
-			<br>
-			<h2>配信のお知らせ</h2>
+			
+			<h2 id="streaming">企画②配信のお知らせ</h2>
+			<Image src={streaming} alt="配信企画"/>
 			<p>Twitchでの配信が決定！</p>
 			<p>当日足を運べない皆様も、イベントの空気感を少しでも味わっていただけますと幸いです！</p>
 			<p>※配信のURLは当日<a href="https://x.com/Intersection62">Xアカウント</a>からご案内いたします。</p>
-			<p>※雅賀烈賀さん(矢吹真央さん)、Hylenさんの出演中は配信を一時停止させていただきます。</p>
-			<br>-->
-			<span style="font-size: smaller;">
-				<ol class="index">
-					<p>
-						ほかにもさまざまな企画を準備中です。
-						最新情報は<a href="https://x.com/Intersection62">Xアカウント</a>で発信しています。
-					</p>
-				</ol>
-			</span>
+			<p>※多々良ゆらさんの出演中は配信を一時停止させていただきます。</p>
+			<br>
+			<h2 id="echa">企画③お絵描きチャット</h2>
+			<Image src={echa} alt="絵チャ企画"/>
+			<p>当日はMagicalDrawにてお絵かきチャットの同時開催を行います！</p>
+			<p>様子は恵比寿BATICAのモニターで中継されるかも？</p>
+			<p>どなたでも奮ってご参加ください！</p>
+			<p>※ルームのURLは、当日<a href="https://x.com/Intersection62">Xアカウント</a>からご案内いたします。</p>
+			<br>
+			
 			<a href="https://t.livepocket.jp/e/intersection_2062-2nd">
 				<Image src={ticketbutton} alt="チケットはこちらから"/>
 			</a>
